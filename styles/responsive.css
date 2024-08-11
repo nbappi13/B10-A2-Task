@@ -1,0 +1,32 @@
+/* NAVBAR RESPONSIVE */
+
+/* For Medium Device */
+
+/* No change of nav bar in medium device */
+
+/* For Small Device */
+
+@media screen and (max-width:576px) {
+    
+    .nav-div {
+        font-weight: 700;
+        font-size: 3rem;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .nav-div h4 {
+        font-size: 3.5rem;
+        font-weight: 800;
+    }
+    .nav-ul {
+        display: none;
+
+    }
+
+    .nav-hamburger-menu {
+        display: block;
+    }
+    
+    
+}
