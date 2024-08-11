@@ -2,7 +2,10 @@
 
 /* For Medium Device */
 
-/* No change of nav bar in medium device */
+.nav-div {
+    margin-left: 40px;
+    margin-right: 40px;
+}
 
 /* For Small Device */
 
@@ -27,6 +30,50 @@
     .nav-hamburger-menu {
         display: block;
     }
-    
+    }
+
+
+/* BANNER SECTION RESPONSIVE  */
+
+/* For Medium Device */
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .banner {
+        flex-direction: column;
+    }
     
 }
+
+
+/* For Small Device */
+
+@media screen and (max-width: 576px) {
+    .banner {
+        flex-direction: column;
+    }
+
+    /* .banner-content { */
+        
+    }
+
+    .banner-image img  {
+        width: 70%;
+        margin-left: 120px;
+    
+    }
+
+    .ban-circle {
+        display: none;
+    }
+
+    .ban-icon-circle {
+        display: block;
+    
+    }
+
+    .transparent-btn1 {
+        right: 55%;
+    }
+    
+}
+
