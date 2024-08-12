@@ -133,7 +133,44 @@
 /* CHANGE HABIT SECTION ENDS HERE */
 
 
-    
+
+/* RUN SECTION STARTS HERE */
+
+/* For Medium Device  */
+@media screen and (min-width: 577px) and (max-width:992px) {
+    .run-container-div {
+        width: max-content;
+        margin-left: 80px;
+    }
+    .run-content {
+        padding-left: 0px;
+        margin-right: -90px;
+    }
+
+
+}
+
+/* For Small Device */
+
+@media screen and (max-width: 576px) {
+    .run-container-div {
+        width: max-content;
+        flex-direction: column;
+        margin-left: 30px;
+        margin-right: 40px;
+        
+    }
+
+
+    .run-image {
+        margin-top: 20px;
+    }
+
+}
+
+/* RUN SECTION ENDS HERE */
+
+
 
 
 

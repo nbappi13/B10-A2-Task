@@ -21,6 +21,10 @@
   background-color: rgba(0, 0, 0, 1);
 }
 
+.bg-color-2 {
+  background-color: rgba(19, 18, 18, 0.986);
+}
+
 
 body {
   max-width: 1440px;
@@ -85,10 +89,6 @@ body {
 
 /* BANNER SECTION STARTS HERE */
 
-.banner-sec {
-  background-color: rgba(19, 18, 18, 0.986);
-
-  }
 
 .banner {
   justify-content: space-between;
@@ -302,3 +302,62 @@ body {
 
 
 /* CHANGE HABIT SECTION ENDS HERE */
+
+/* RUN SECTION STARTS HERE */
+
+
+.run-container-div {
+  justify-content: space-between;
+  width: 1060px;
+  background-color: rgba(34, 33, 33, 0.89);
+  margin-top: 95px;
+  padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+
+.run-content {
+  padding-left: 54px;
+}
+
+.run-content h2 {
+  font-weight: bolder;
+  font-size: 3rem;
+  color: rgba(255, 255, 255, 1);
+  
+}
+
+.run-content p {
+  width: 443px;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.run-content button {
+  font-weight: 600;
+  font-size: 1.125rem;
+  padding: 4px 8px;
+  background-color: rgba(230, 83, 60, 1);
+  border-radius: 46px;
+  width: 224px;
+  height: 54px;
+  border: none;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 5px;
+}
+
+.run-image {
+  width: 366px;
+  height: 312px;
+}
+.run-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 18px;
+}
+
+/* RUN SECTION ENDS HERE */
+
+
