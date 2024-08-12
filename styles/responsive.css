@@ -2,9 +2,11 @@
 
 /* For Medium Device */
 
-.nav-div {
-    margin-left: 40px;
-    margin-right: 40px;
+@media screen and (min-width: 577px) and (max-width:992px) {
+    .nav-div {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
 }
 
 /* For Small Device */
@@ -35,9 +37,12 @@
 
 /* BANNER SECTION RESPONSIVE  */
 
+
+
+
 /* For Medium Device */
 
-@media screen and (min-width: 576px) and (max-width: 992px) {
+@media screen and (min-width: 577px) and (max-width: 992px) {
     .banner {
         flex-direction: column;
     }
@@ -54,7 +59,7 @@
 
     /* .banner-content { */
         
-    }
+    
 
     .banner-image img  {
         width: 70%;
@@ -66,14 +71,69 @@
         display: none;
     }
 
-    .ban-icon-circle {
-        display: block;
     
+    .ban-icon-circle {
+        width: 40%;
+        margin-left: -120px;
+        margin-top: -65px;
+        display: block;
     }
+
+    
+
+    
 
     .transparent-btn1 {
         right: 55%;
     }
-    
+
+    .transparent-btn1-content {
+        margin-top: -10px;
+    }
+
+
+
 }
+
+
+/* CHANGE HABIT SECTION STARTS HERE  */
+
+/* For Medium Device */
+@media screen and (min-width:577px) and (max-width: 992px) {
+    .ch-images-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .change-habit-container {
+        width: max-content;
+        padding-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        
+      }
+    }
+
+
+/* For Small Device */
+
+@media screen and (max-width: 576px) {
+    .ch-images-container {
+        flex-direction: column;
+    }
+
+       .change-habit-container {
+        width: max-content;
+        padding-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        
+      }   
+    }
+/* CHANGE HABIT SECTION ENDS HERE */
+
+
+    
+
+
 

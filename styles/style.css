@@ -17,6 +17,10 @@
   display: flex
 }
 
+.bg-color {
+  background-color: rgba(0, 0, 0, 1);
+}
+
 
 body {
   max-width: 1440px;
@@ -168,7 +172,19 @@ body {
   border: none;
   filter: blur(0.7px);
 
-  }
+  } 
+
+.btn1-span {
+  font-weight:600;
+  font-size: 1.5rem;
+}
+
+
+
+
+.ban-icon-circle {
+  display: none;
+} 
 
 .ban-circle {
   width: 25px;
@@ -177,25 +193,10 @@ body {
   background-color: red;
   position:fixed;
   margin-top: -50px;
-}  
-
-.ban-icon-circle {
-  width: 40%;
-  display: none;
-  margin-left: -120px;
-  margin-top: -65px;
-}
+ } 
 
 
 
-
-
-
-
-.btn1-span {
-  font-weight:600;
-  font-size: 1.5rem;
-}
 
 .transparent-btn2 {
   background-color: rgba(66, 63, 63, 0.63);
@@ -207,7 +208,7 @@ body {
   border-radius: 12px;
   position: absolute;
   top: 19%;
-  margin-left: -40%;
+  margin-left: -35%;
   border: none;
   filter: blur(0.7px);
   
@@ -221,3 +222,83 @@ body {
 
 
 /* BANNER SECTION ENDS HERE */
+
+/* CHANGE HABIT SECTION STARTS HERE */
+
+/* .change-habit-sec {
+  margin: 0;
+  padding: 0;
+} */
+
+.change-habit-container {
+  width: 1044px;
+  padding-top: 95px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+
+.change-habit-container-text h2 {
+  font-weight: 700;
+  font-size: 3rem;
+  color: rgba(255, 255, 255, 1);
+  font-style: italic;
+  text-align: center;
+}
+
+.change-habit-container-text p {
+  font-weight: 400;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  margin-top: -20px;
+}
+
+
+.ch-images-container {
+  justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.imge-info {
+  align-items: center;
+  
+}
+
+.ch-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  
+}
+
+.ch-image {
+  object-fit: cover;
+  overflow: hidden;
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+}
+
+.ch-content {
+  text-align: center;
+  width: 231px;
+}
+
+.ch-content h5 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.ch-content p {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+  font-size: 0.9rem;
+  margin-top: -25px;
+}
+
+
+/* CHANGE HABIT SECTION ENDS HERE */
