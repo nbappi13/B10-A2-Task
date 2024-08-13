@@ -1,5 +1,4 @@
-/* NAVBAR RESPONSIVE */
-
+/* NAVBAR RESPONSIVE STARTS HERE */
 /* For Medium Device */
 
 @media screen and (min-width: 577px) and (max-width:992px) {
@@ -33,13 +32,10 @@
         display: block;
     }
     }
+    /* NAVBAR RESPONSIVE ENDS HERE */
 
 
-/* BANNER SECTION RESPONSIVE  */
-
-
-
-
+/* BANNER SECTION RESPONSIVE STARTS HERE  */
 /* For Medium Device */
 
 @media screen and (min-width: 577px) and (max-width: 992px) {
@@ -94,10 +90,11 @@
 
 
 }
+/* BANNER SECTION RESPONSIVE ENDS HERE */
+
 
 
 /* CHANGE HABIT SECTION STARTS HERE  */
-
 /* For Medium Device */
 @media screen and (min-width:577px) and (max-width: 992px) {
     .ch-images-container {
@@ -135,7 +132,6 @@
 
 
 /* RUN SECTION STARTS HERE */
-
 /* For Medium Device  */
 @media screen and (min-width: 577px) and (max-width:992px) {
     .run-container-div {
@@ -167,10 +163,67 @@
     }
 
 }
-
 /* RUN SECTION ENDS HERE */
 
 
+/* TRAININGS AND EXERCISE SECTION STARTS HERE */
+/* For Medium Device */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .trn-exe-con {
+        width: 800px;
+    }
+    
+    .trn-exe-grid-con {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }    
+    
+    .item-2 {
+        grid-column: span 1;
+    }
+    .item-4 {
+        grid-column: span 1;
+    }
+
+    .it-4 > p {
+        margin-left: 10px;
+        margin-top: 150px;
+      }
+
+}
+
+/* For Small Device */
+@media screen and (max-width: 576px) {
+    .trn-exe-con {
+        width: max-content;
+    }
 
 
+    .trn-exe-grid-con {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    } 
 
+    .item-2 {
+        grid-column: span 1;
+    }
+    .item-4 {
+        grid-column: span 1;
+    }
+
+    .item-3 , .item-6 {
+        display: none;
+    }
+
+    
+    #one {
+        display: none;
+    }
+
+    .common-h6 {
+       display: block; 
+    }
+    
+}
+    
+/* TRAININGS AND EXERCISE SECTION ENDS HERE */
