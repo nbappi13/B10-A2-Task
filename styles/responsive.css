@@ -1,7 +1,7 @@
 /* NAVBAR RESPONSIVE STARTS HERE */
 /* For Medium Device */
 
-@media screen and (min-width: 577px) and (max-width:992px) {
+    @media screen and (min-width: 577px) and (max-width:992px) {
     .nav-div {
         margin-left: 40px;
         margin-right: 40px;
@@ -10,7 +10,7 @@
 
 /* For Small Device */
 
-@media screen and (max-width:576px) {
+    @media screen and (max-width:576px) {
     
     .nav-div {
         font-weight: 700;
@@ -38,7 +38,7 @@
 /* BANNER SECTION RESPONSIVE STARTS HERE  */
 /* For Medium Device */
 
-@media screen and (min-width: 577px) and (max-width: 992px) {
+    @media screen and (min-width: 577px) and (max-width: 992px) {
     .banner {
         flex-direction: column;
     }
@@ -48,7 +48,7 @@
 
 /* For Small Device */
 
-@media screen and (max-width: 576px) {
+    @media screen and (max-width: 576px) {
     .banner {
         flex-direction: column;
     }
@@ -96,7 +96,7 @@
 
 /* CHANGE HABIT SECTION STARTS HERE  */
 /* For Medium Device */
-@media screen and (min-width:577px) and (max-width: 992px) {
+    @media screen and (min-width:577px) and (max-width: 992px) {
     .ch-images-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -114,7 +114,7 @@
 
 /* For Small Device */
 
-@media screen and (max-width: 576px) {
+    @media screen and (max-width: 576px) {
     .ch-images-container {
         flex-direction: column;
     }
@@ -133,7 +133,7 @@
 
 /* RUN SECTION STARTS HERE */
 /* For Medium Device  */
-@media screen and (min-width: 577px) and (max-width:992px) {
+    @media screen and (min-width: 577px) and (max-width:992px) {
     .run-container-div {
         width: max-content;
         margin-left: 80px;
@@ -148,7 +148,7 @@
 
 /* For Small Device */
 
-@media screen and (max-width: 576px) {
+    @media screen and (max-width: 576px) {
     .run-container-div {
         width: max-content;
         flex-direction: column;
@@ -168,7 +168,7 @@
 
 /* TRAININGS AND EXERCISE SECTION STARTS HERE */
 /* For Medium Device */
-@media screen and (min-width: 577px) and (max-width: 992px) {
+    @media screen and (min-width: 577px) and (max-width: 992px) {
     .trn-exe-con {
         width: 800px;
     }
@@ -193,7 +193,7 @@
 }
 
 /* For Small Device */
-@media screen and (max-width: 576px) {
+    @media screen and (max-width: 576px) {
     .trn-exe-con {
         width: max-content;
     }
@@ -225,5 +225,41 @@
     }
     
 }
+    /* TRAININGS AND EXERCISE SECTION ENDS HERE */
+
+
+    /* MEET TEAM SECTION STARTS HERE */
+    @media screen and (min-width: 577px) and (max-width: 992px)  {
+        .meet-team-cont {
+            width: 800px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .team-info-container {
+            width: 100%;
+            padding: 20px;
+            justify-content: center;
+        }
+        
+        .team-info-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+
+        } 
+    }
+
+    /* For Small Device */
+    @media screen and (max-width: 576px) {
+        .meet-team-cont {
+            width: max-content;
+        }
+
+        .team-info-container {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            justify-items: center;
+    }
+}
+/* MEET TEAM SECTION ENDS HERE */
     
-/* TRAININGS AND EXERCISE SECTION ENDS HERE */

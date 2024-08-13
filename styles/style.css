@@ -489,3 +489,116 @@ body {
 /* TRAININGS AND EXERCISE SECTION ENDS HERE */
 
 
+
+/* MEET TEAM SECTION STARTS HERE */
+.meet-team-cont {
+  width: 1060px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid tomato;
+}
+
+.team-info-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.meet-team-content > h2 {
+  font-weight: bolder;
+  font-size: 3rem;
+  /* color: rgba(255, 255, 255, 1); */
+  color: black;
+  text-align: center;
+}
+
+
+
+.meet-team-content > p {
+  font-weight: 400;
+  font-size: 0.9rem;
+  color: rgba(29, 28, 28, 0.5);
+  /* color: rgba(255, 255, 255, 0.5); */
+  text-align: center;
+  margin-top: -30px;
+}
+
+.info-con h5 {
+  margin-top: 210px;
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 1.125rem;
+  color: rgba(255, 255, 255, 1);
+}
+
+.info-con p {
+  font-weight: 400;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin-left: 20px;
+  margin-top: -30px;
+}
+
+
+
+
+
+.info-item-1 {
+  background-image: url('../images/trainer1.png');
+  
+}
+.info-item-2 {
+  background-image: url('../images/trainer2.png');
+}
+.info-item-3 {
+  background-image: url('../images/trainer3.png');
+}
+
+.info-item-4 {
+  background-image: url('../images/trainer4.png');
+  
+  
+  
+}
+  
+.info-item-5 {
+  background-image: url('../images/trainer5.png');
+}  
+
+.info-item-6 {
+  background-image: url('../images/trainer6.png');
+}
+
+.image-info-con {
+  position: relative;
+  width: 327px;
+  height: 272px;
+  background-size:cover;
+  /* object-position: center; */
+  /* object-fit: cover; */
+  background-position: center;
+  overflow: hidden;
+  border-radius: 18px;
+  
+  }
+
+
+
+
+.info-con {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+/* MEET TEAM SECTION ENDS HERE */
+
+
+
+
+
+
