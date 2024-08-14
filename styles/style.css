@@ -488,28 +488,163 @@ body {
 
 /* TRAININGS AND EXERCISE SECTION ENDS HERE */
 
+/* BMI CALCULATOR SECTION STARTS HERE */
+.bmi-calculator-div {
+  margin-top: 88px;
+
+}
+
+.bmi-cal-content > h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 3rem;
+  color: rgba(255, 255, 255, 1);
+}
+
+.bmi-cal-content > p {
+  text-align: start;
+  margin-left: 510px;
+  font-weight: 400;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+
+.cal-field-con {
+  justify-content: space-between;
+  padding-top: 15px;
+  padding-left: 185px;
+  background-color: rgba(34, 34, 34, 1);
+  margin-top: 88px;
+  padding-bottom: 30px;
+}
+
+.bmi-cal-chart {
+  margin-top: 38px;
+}
+
+
+.bmi-table {
+  width: 310px;
+  margin: ;
+  border-collapse: collapse;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+
+.bmi-table th, .bmi-table td {
+  padding: 8px;
+  border: 1px solid #363434;
+}
+
+.bmi-caption {
+  font-weight: bold;
+  font-size: 1.75rem;
+  margin-bottom: 45px;
+  color: rgba(255, 255, 255, 1);
+}
+
+
+.bmi-field {
+  width: 577px;
+
+}
+
+.bmi-field > h4 {
+  font-weight: bold;
+  font-size: 1.75rem;
+  color: rgba(255, 255, 255, 1);
+}
+.bmi-field > p {
+  font-weight: 400;
+  font-size: 0.9rem;
+  margin-top: -30px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.bmi-field button {
+  font-weight: 600;
+  font-size: 1.125rem;
+  padding: 4px 2px;
+  background-color: rgba(230, 83, 60, 1);
+  border-radius: 46px;
+  width: 224px;
+  height: 54px;
+  border: none;
+  color: rgba(255, 255, 255, 1);
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+
+.bmi-cal-fld {
+  margin-top: 49px;
+  margin-right: 189px;
+}
+
+
+
+form {
+  width: 100%;
+  /* margin: 20px auto; */
+
+}
+
+fieldset {
+  /* border: 1px solid #000; */
+  padding: 10px;
+  /* margin-bottom: 10px; */
+  border: none;
+}
+
+.bmi-form-field {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+
+}
+
+input[type="text"], input[type="number"], select {
+  width: 100%;
+  padding: 10px;
+  /* border: 1px solid #000; */
+  box-sizing: border-box;
+  font-size: 1rem;
+  font-family: 400;
+  color: white;
+  background-color: rgb(53, 51, 51);
+  
+}
+
+select {
+  /* background-color: rgb(53, 51, 51); */
+  color: rgba(255, 255, 255, 0.6);
+}
+/* BMI CALCULATOR SECTION ENDS HERE */
+
+
 
 
 /* MEET TEAM SECTION STARTS HERE */
 .meet-team-cont {
   width: 1060px;
-  margin-top: 100px;
+  margin-top: 88px;
   margin-left: auto;
   margin-right: auto;
-  border: 2px solid tomato;
 }
 
 .team-info-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+  margin-top: 58px;
 }
 
 .meet-team-content > h2 {
   font-weight: bolder;
   font-size: 3rem;
   /* color: rgba(255, 255, 255, 1); */
-  color: black;
+  color: rgba(255, 255, 255, 1);
   text-align: center;
 }
 
@@ -518,7 +653,7 @@ body {
 .meet-team-content > p {
   font-weight: 400;
   font-size: 0.9rem;
-  color: rgba(29, 28, 28, 0.5);
+  color: rgba(255, 255, 255, 0.5);
   /* color: rgba(255, 255, 255, 0.5); */
   text-align: center;
   margin-top: -30px;
@@ -596,6 +731,34 @@ body {
   font-weight: 500;
 }
 /* MEET TEAM SECTION ENDS HERE */
+
+
+/* FOOTER SECTION STARTS HERE */
+.main-footer-contnr {
+  margin-top: 88px;
+}
+
+.ftr-contnr {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 190px;
+  margin-right: 191px;
+  padding-top: 5px;
+
+
+}
+
+
+
+
+.left-footer-div {
+  width: 443px;
+}
+
+.right-footer-div {
+  width: 514px;
+}
+/* FOOTER SECTION ENDS HERE */
 
 
 

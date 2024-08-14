@@ -226,6 +226,51 @@
     
 }
     /* TRAININGS AND EXERCISE SECTION ENDS HERE */
+   
+
+
+    /* BMI CALCULATOR SECTION STARTS HERE */
+    /* For Medium Device */
+    @media screen and (min-width: 577px) and (max-width: 992px) {
+        .cal-field-con {
+            flex-direction: column;
+            align-items: flex-start;
+            padding-left: 88px;
+        }
+
+        .bmi-cal-content > h2 {
+            font-size: 2.5rem;
+            text-align: left;
+            margin-left: 88px;
+        }
+        .bmi-cal-content > p {
+            text-align: left;
+            margin-left: 88px;
+        }
+
+
+        }
+
+
+    /* For Small Device */
+    @media screen and (max-width: 576px) {
+        .cal-field-con {
+            flex-direction: column;
+            align-items: flex-start;
+            padding-left: 88px;
+        }
+
+        .bmi-cal-content > h2 {
+            font-size: 2.5rem;
+            text-align: left;
+            margin-left: 88px;
+        }
+        .bmi-cal-content > p {
+            text-align: left;
+            margin-left: 88px;
+        }
+    }
+    /* BMI CALCULATOR SECTION ENDS HERE */
 
 
     /* MEET TEAM SECTION STARTS HERE */
