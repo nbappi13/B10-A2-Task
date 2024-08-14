@@ -366,6 +366,34 @@
     /* MEET TEAM SECTION ENDS HERE */
 
 
+    /* CREATIVE SECTION STARTS HERE  */
+    /* For Medium Device */
+    @media screen and (min-width: 577px) and (max-width: 992px) {
+        .cards {
+            flex-direction: column;
+            gap: 30px;
+            align-items: center;
+        }
+
+        .service-container h2  {
+            margin-left: 0px;
+        }
+    }
+    @media screen and (max-width: 576px) {
+        .cards {
+            flex-direction: column;
+            gap: 30px;
+            align-items: self-start;
+        }
+
+        .service-container h2  {
+            margin-left: 110px;
+            text-align: left;
+        }
+    }
+    /* CREATIVE SECTION ENDS HERE  */
+
+
     /* FOOTER SECTION STARTS HERE */
     /* For Medium Device  */
     @media screen and (min-width: 577px) and (max-width: 992px) {

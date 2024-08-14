@@ -737,6 +737,103 @@ select {
 /* MEET TEAM SECTION ENDS HERE */
 
 
+/* HELLO */
+
+.Creative-Section {
+  /* background-color: black; */
+}
+.service-container {
+  width: 1060px;
+  align-items: center;
+  margin-left: -50px;
+  margin-top: -80px;
+  padding-bottom: 70px;
+  
+
+}
+
+.service-container h2 {
+  margin-left: 300PX;
+  font-weight: 700;
+  font-size: 3rem;
+  margin-top: 90px;
+  margin-bottom: 56px;
+  text-align: center;
+  color: white;
+  
+  
+}
+
+.cards {
+  display: flex;
+  margin-left: 100px;
+  margin-right: 110px;
+  column-gap: 64px;    
+  
+}
+
+
+.card {
+  padding: 10px;
+  background-color:cadetblue;
+  border-radius: 16px;
+  width: 344px;
+  height: 385px;
+  box-shadow: 0px 16px 32px -8px rgba(12, 12, 13, 0.4);
+  
+}
+
+.card img {
+padding-top: 36px;
+padding-left: 140px;
+padding-right: 140px;
+}
+
+.card h3 {
+  font-weight: 700;
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+}
+.card p {
+  width: 291px;
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 24px 32px 30px 23px;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  align-items: center;
+  opacity: 0.7;
+}
+
+.card button {
+  width: 114px;
+  height: 44px;
+  margin-top: -10px;
+  margin-bottom: 36px;
+  margin-left: 112px;
+  margin-right: 118px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 1);
+  border: none;
+}
+
+.card button a {
+  /* margin-top: -10px; */
+  font-weight: 600;
+  font-size: 1.125rem;
+  color:lightgrey;
+  text-decoration: none;
+}
+
+
+.card button:hover {
+  background-color: tomato;
+}
+
+/* HELLO */
+
+
 /* FOOTER SECTION STARTS HERE */
 .footer-sec {
   background-color: rgba(34, 34, 34, 1);
