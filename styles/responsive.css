@@ -1,22 +1,23 @@
-/* NAVBAR RESPONSIVE STARTS HERE */
-/* For Medium Device */
+   /* NAVBAR RESPONSIVE STARTS HERE */
+   /* For Medium Device */
 
     @media screen and (min-width: 577px) and (max-width:992px) {
     .nav-div {
         margin-left: 40px;
         margin-right: 40px;
+    
     }
-}
+ }
 
-/* For Small Device */
+  /* For Small Device */
 
     @media screen and (max-width:576px) {
     
     .nav-div {
         font-weight: 700;
         font-size: 3rem;
-        margin-left: 30px;
-        margin-right: 30px;
+        margin-left: 40px;
+        margin-right: 60px;
     }
 
     .nav-div h4 {
@@ -35,25 +36,41 @@
     /* NAVBAR RESPONSIVE ENDS HERE */
 
 
-/* BANNER SECTION RESPONSIVE STARTS HERE  */
-/* For Medium Device */
+  /* BANNER SECTION RESPONSIVE STARTS HERE  */
+  /* For Medium Device */
 
     @media screen and (min-width: 577px) and (max-width: 992px) {
     .banner {
         flex-direction: column;
+        align-items: center;
+    }
+
+    .banner-content {
+        margin-left: -20%;
+    }
+
+    .transparent-btn2 {
+        margin-left: -46%;
+    }
+
+    .btn2-span {
+        font-size: 3rem;
     }
     
-}
+ }
 
 
-/* For Small Device */
+  /* For Small Device */
 
     @media screen and (max-width: 576px) {
     .banner {
         flex-direction: column;
     }
 
-    /* .banner-content { */
+
+    .banner-content > h1 {
+        font-size: 4.7rem;
+    }
         
     
 
@@ -89,13 +106,13 @@
 
 
 
-}
-/* BANNER SECTION RESPONSIVE ENDS HERE */
+  }
+   /* BANNER SECTION RESPONSIVE ENDS HERE */
 
 
 
-/* CHANGE HABIT SECTION STARTS HERE  */
-/* For Medium Device */
+   /* CHANGE HABIT SECTION STARTS HERE  */
+   /* For Medium Device */
     @media screen and (min-width:577px) and (max-width: 992px) {
     .ch-images-container {
         display: grid;
@@ -112,7 +129,7 @@
     }
 
 
-/* For Small Device */
+    /* For Small Device */
 
     @media screen and (max-width: 576px) {
     .ch-images-container {
@@ -126,18 +143,38 @@
         margin-right: auto;
         
       }   
+
+      .change-habit-container-text > p {
+        font-size: 0.7rem;
+
+      }
     }
-/* CHANGE HABIT SECTION ENDS HERE */
+   /* CHANGE HABIT SECTION ENDS HERE */
 
 
 
-/* RUN SECTION STARTS HERE */
-/* For Medium Device  */
+   /* RUN SECTION STARTS HERE */
+   /* For Medium Device  */
     @media screen and (min-width: 577px) and (max-width:992px) {
     .run-container-div {
         width: max-content;
-        margin-left: 80px;
+        margin-left: 100px;
+        
     }
+
+    .team-info-container {
+        margin-left: 25px;
+    
+    }
+
+    .info-con h5 {
+        margin-left: 60px;
+    }
+
+    .info-con p {
+        margin-left: 60px;
+    }
+
     .run-content {
         padding-left: 0px;
         margin-right: -90px;
@@ -146,14 +183,15 @@
 
 }
 
-/* For Small Device */
+   /* For Small Device */
 
     @media screen and (max-width: 576px) {
     .run-container-div {
-        width: max-content;
+        width: 400px;
         flex-direction: column;
-        margin-left: 30px;
-        margin-right: 40px;
+        align-items: center;
+        justify-content: center;
+        
         
     }
 
@@ -163,11 +201,11 @@
     }
 
 }
-/* RUN SECTION ENDS HERE */
+   /* RUN SECTION ENDS HERE */
 
 
-/* TRAININGS AND EXERCISE SECTION STARTS HERE */
-/* For Medium Device */
+   /* TRAININGS AND EXERCISE SECTION STARTS HERE */
+   /* For Medium Device */
     @media screen and (min-width: 577px) and (max-width: 992px) {
     .trn-exe-con {
         width: 800px;
@@ -223,6 +261,14 @@
     .common-h6 {
        display: block; 
     }
+
+    .trn-exe-content > h2 {
+        font-size: 2rem;
+    }
+
+    .trn-exe-content > P {
+        font-size: 0.8rem;
+    }
     
 }
     /* TRAININGS AND EXERCISE SECTION ENDS HERE */
@@ -267,13 +313,19 @@
         }
         .bmi-cal-content > p {
             text-align: left;
-            margin-left: 88px;
+            margin-left: 80px;
+            font-size: 0.6rem;
+        }
+
+        .bmi-field > p {
+            font-size: 0.7rem;
         }
     }
     /* BMI CALCULATOR SECTION ENDS HERE */
 
 
     /* MEET TEAM SECTION STARTS HERE */
+    /* For Medium Device  */
     @media screen and (min-width: 577px) and (max-width: 992px)  {
         .meet-team-cont {
             width: 800px;
@@ -298,6 +350,11 @@
     @media screen and (max-width: 576px) {
         .meet-team-cont {
             width: max-content;
+            
+        }
+
+        .meet-team-content > p {
+            font-size: 0.6rem;
         }
 
         .team-info-container {
@@ -306,5 +363,59 @@
             justify-items: center;
     }
 }
-/* MEET TEAM SECTION ENDS HERE */
+    /* MEET TEAM SECTION ENDS HERE */
+
+
+    /* FOOTER SECTION STARTS HERE */
+    /* For Medium Device  */
+    @media screen and (min-width: 577px) and (max-width: 992px) {
+        .ftr-contnr {
+            flex-direction: column;
+            margin-left: 40px;
+            align-items: center;
+            /* align-items: flex-start; */
+        }
+
+        #footer-p  {
+            margin-left: 300px;
+        }
+
+        .main-footer-contnr hr {
+            width: 700px;
+        }
+    }
+
+
+    /* For Small Device */
+    @media screen and (max-width: 576px) {
+        .ftr-contnr {
+            flex-direction: column;
+        }
+
+        .right-footer-div {
+            flex-direction: column;
+            gap: 52px;
+            width: max-content;
+            margin-left: -150px;
+
+        }
+
+        #footer-p  {
+            margin-left: 110px;
+
+        }
+
+        .left-footer-div {
+            width: max-content;
+            margin-left: -120px;
+        }
+
+        .main-footer-contnr hr {
+            margin-left: 80px;
+            width: 350px;
+        }
+
+
+    }
+    /* FOOTER SECTION ENDS HERE */
     
