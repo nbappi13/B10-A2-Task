@@ -626,6 +626,10 @@ select {
 
 
 /* MEET TEAM SECTION STARTS HERE */
+.meet-our-team {
+  padding-bottom: 80px;
+}
+
 .meet-team-cont {
   width: 1060px;
   margin-top: 88px;
@@ -734,8 +738,30 @@ select {
 
 
 /* FOOTER SECTION STARTS HERE */
+.footer-sec {
+  /* max-width: 1440px;
+  width: 100%; */
+  background-color: rgba(34, 34, 34, 1);
+}
+
 .main-footer-contnr {
-  margin-top: 88px;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  /* background-color: rgba(34, 34, 34, 1); */
+}
+
+
+.main-footer-contnr hr {
+  width: 1060px;
+  margin-top: 60px;
+}
+#footer-p {
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin-left: 500px;
+  margin-bottom: -10px;
+
 }
 
 .ftr-contnr {
@@ -753,11 +779,44 @@ select {
 
 .left-footer-div {
   width: 443px;
+  margin-top: -50px;
+}
+.left-footer-div h2 {
+  font-weight: bolder;
+  font-size: 4.4rem;
+  color: rgba(230, 83, 60, 1);
+  font-style: italic;
+}
+.left-footer-div p {
+  font-weight: 400;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: -50px;
 }
 
 .right-footer-div {
+  display: flex;
+  justify-content: space-between;
   width: 514px;
+  gap: 152px;
+ 
 }
+
+.right-footer-div ul li {
+  list-style: none;
+  line-height: 30px;
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: rgba(255, 255, 255, 0.5);
+  
+}
+#main-li {
+  font-weight: bold;
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+  color: rgba(255, 255, 255, 1)
+}
+
 /* FOOTER SECTION ENDS HERE */
 
 
