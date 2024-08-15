@@ -31,6 +31,10 @@ body {
   margin: 0 auto;
 }
 
+.header-part {
+  background-image: linear-gradient(  180deg,  rgba(17, 17, 17, 1), rgba(31, 28, 28, 0.973));
+}
+
 /* NAVBAR STARTS HERE */
 .nav-div {
   max-width: 1060px;
@@ -737,11 +741,8 @@ select {
 /* MEET TEAM SECTION ENDS HERE */
 
 
-/* HELLO */
 
-.Creative-Section {
-  /* background-color: black; */
-}
+/* CREATIVE SECTION STARTS HERE */
 .service-container {
   width: 1060px;
   align-items: center;
@@ -779,7 +780,7 @@ select {
   border-radius: 16px;
   width: 344px;
   height: 385px;
-  box-shadow: 0px 16px 32px -8px rgba(12, 12, 13, 0.4);
+  box-shadow: 0 4px 8px yellowgreen;
   
 }
 
@@ -831,7 +832,7 @@ padding-right: 140px;
   background-color: tomato;
 }
 
-/* HELLO */
+/* CREATIVE SECTION ENDS HERE */
 
 
 /* FOOTER SECTION STARTS HERE */
